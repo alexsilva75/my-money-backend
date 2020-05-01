@@ -1,4 +1,4 @@
-const port = 3003
+const port = process.env.PORT ? process.env.PORT : 3003
 const express = require('express')
 const bodyParser = require('body-parser')
 const queryParser = require('express-query-int')
